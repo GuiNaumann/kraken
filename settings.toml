@@ -1,0 +1,9 @@
+domain = ":8080"  # Porta onde o servidor vai rodar
+
+[DatabaseConfig]
+DATABASE_URL = "postgres://postgres:root@localhost:5432/postgres?sslmode=disable"
+
+[SecurityConfig]
+COOKIE_ENCRYPTION_KEY = "qN6s8veqEPaMIbIWnaF5D5rh5DyREbPumKx4BiZTGOk="
+JWT_SECRET = "2vYspjkwDmYnueR9lmXptXXOzeZUrpkW5mZIW6QwDGk="
+
